@@ -18,12 +18,11 @@ public class Alimento extends ProdutoBase {
         this.dataValidade = dataValidade;
     }
 
-    @Override
-    public String getTipo() {
+        public String getTipo() {
         return "Alimento";
     }
 
-    @Override
+
     public String exibirDetalhes() {
         return String.format("Tipo: %s, Nome: %s, Preço: %.2f, Quantidade: %d, Data de Validade: %s",
                 getTipo(), getNome(), getPreco(), getQuantidade(), dataValidade);

@@ -28,13 +28,11 @@ public class Roupa extends ProdutoBase {
         this.cor = cor;
     }
 
-    @Override
-    public String getTipo() {
+        public String getTipo() {
         return "Roupa";
     }
 
-    @Override
-    public String exibirDetalhes() {
+        public String exibirDetalhes() {
         return String.format("Tipo: %s, Nome: %s, Preço: %.2f, Quantidade: %d, Tamanho: %s, Cor: %s",
                 getTipo(), getNome(), getPreco(), getQuantidade(), tamanho, cor);
     }

@@ -18,12 +18,12 @@ public class Eletronico extends ProdutoBase {
         this.garantiaMeses = garantiaMeses;
     }
 
-    @Override
+
     public String getTipo() {
         return "Eletrônico";
     }
 
-    @Override
+
     public String exibirDetalhes() {
         return String.format("Tipo: %s, Nome: %s, Preço: %.2f, Quantidade: %d, Garantia: %d meses",
                 getTipo(), getNome(), getPreco(), getQuantidade(), garantiaMeses);
