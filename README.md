@@ -7,7 +7,7 @@ Você deverá criar um sistema para gerenciar diferentes tipos de produtos. O si
 
 ### 💻Criação de Interfaces
 #### Interface Produto
-Métodos:
+**Métodos:**
 
 public String getTipo();
 
@@ -29,7 +29,7 @@ public String exibirDetalhes();
 #### 1. Classe abstrata ProdutoBase
 Implementa a interface Produto.
 
-Atributos:
+**Atributos:**
 
 private String nome;
 
@@ -37,17 +37,17 @@ private double preco;
 
 private int quantidade;
 
-Métodos:
+**Métodos:**
 
 Implementar todos os métodos da interface Produto.
 
-Métodos concretos:
+**Métodos concretos:**
 
 public ProdutoBase(String nome, double preco, int quantidade)
 
 public ProdutoBase()
 
-Métodos abstratos:
+**Métodos abstratos:**
 
 public abstract String exibirDetalhes();
 
@@ -58,7 +58,7 @@ Atributos adicionais:
 
 private int garantiaMeses;
 
-Métodos:
+**Métodos:**
 
 Construtores:
 
@@ -78,13 +78,13 @@ public String getTipo(), retornando "Eletrônico".
 #### 3. Classe Roupa
 Herda de ProdutoBase.
 
-Atributos adicionais:
+**Atributos adicionais:**
 
 private String tamanho;
 
 private String cor;
 
-Métodos:
+**Métodos:**
 
 Construtores:
 
@@ -108,11 +108,11 @@ public String getTipo(), retornando "Roupa".
 #### 4. Classe Alimento
 Herda de ProdutoBase.
 
-Atributos adicionais:
+**Atributos adicionais:**
 
 private String dataValidade;
 
-Métodos:
+**Métodos:**
 
 Construtores:
 
@@ -130,13 +130,13 @@ public String getTipo(), retornando "Alimento".
 
 
 #### 5. Classe CarrinhoDeCompras
-Atributos:
+**Atributos:**
 
 private List<Produto> itens;
 
 demais atributos para escrita de arquivo de texto.
 
-Métodos:
+**Métodos:**
 
 Construtor:
 
