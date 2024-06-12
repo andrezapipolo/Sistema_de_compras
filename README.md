@@ -1,11 +1,11 @@
-# Projeto Java
+# ☕ Projeto Java
 Objetivo: Implementar um sistema de vendas de produtos utilizando conceitos de programação orientada a objetos: métodos, encapsulamento, construtores, herança, interfaces, classes abstratas e tratamento de exceções.
 
-### Descrição:
+### 🗎 Descrição:
 Você deverá criar um sistema para gerenciar diferentes tipos de produtos. O sistema deve ser capaz de gerenciar informações sobre eletrônicos, roupas e alimentos, exibindo detalhes específicos para cada tipo de produto. Além disso, o sistema deve permitir a adição, remoção e listagem de produtos, bem como a emissão de um pequeno relatório em arquivo de texto.
 
 
-### Criação de Classes e Interfaces
+### 💻Criação de Interfaces
 #### Interface Produto
 Métodos:
 
@@ -25,6 +25,7 @@ public int getQuantidade();
 
 public String exibirDetalhes();
 
+### 💻Criação de Classes
 #### 1. Classe abstrata ProdutoBase
 Implementa a interface Produto.
 
@@ -152,7 +153,7 @@ public List <Produto> exportarListaProdutos(), para devolver a lista de produtos
 public double calcularTotal(), para calcular o valor total dos produtos no carrinho.
 
 
-Obs.: para excluir um item da lista de produtos do carrinho, talvez seja necessário buscar pelo seu nome e quantidade, visto que não temos um identificador único para esse caso. public void gerarArquivoTexto(String nomeArquivo).
+**Obs.**: para excluir um item da lista de produtos do carrinho, talvez seja necessário buscar pelo seu nome e quantidade, visto que não temos um identificador único para esse caso. public void gerarArquivoTexto(String nomeArquivo).
 
 Esse método deverá gravar um arquivo de texto com o formato similiar ao exemplo abaixo:
 
@@ -162,7 +163,7 @@ Esse método deverá gravar um arquivo de texto com o formato similiar ao exempl
 | 1    |      3        |  Smarthphone   | 2999.0 | 8997.0    |  
 | 2    |      6        |  T-Shirt       | 89.99	 | 539.93    |  
 | 3    |      4        |  Arroz         |  9.90  |  39.96    |  
-Total: 9576,90
+**Total: 9576,90**
 
 Essa classe, deverá ter suas potenciais exceções tratadas.
 
