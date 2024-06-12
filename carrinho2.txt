@@ -1,0 +1,5 @@
+item:		Qtd:		Nome:		Preço:		 SubTotal:
+1		1		Webcam		99,90		99,90
+2		2		Calça		199,99		399,98
+3		5		Lentilha		3,99		19,95
+Total: 519,83

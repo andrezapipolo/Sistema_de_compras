@@ -1,0 +1,5 @@
+item:		Qtd:		Nome:		Preço:		 SubTotal:
+1		1		Smart TV		2999,00		2999,00
+2		1		Vestido		189,99		189,99
+3		5		Macarrão sem Glúten		2,99		14,95
+Total: 3203,94
