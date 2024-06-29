@@ -1,8 +1,8 @@
 # ☕ Projeto Java
-Implementar um sistema de vendas de produtos utilizando conceitos de programação orientada a objetos: métodos, encapsulamento, construtores, herança, interfaces, classes abstratas e tratamento de exceções.
+<p align="justify">Implementar um sistema de vendas de produtos utilizando conceitos de programação orientada a objetos: métodos, encapsulamento, construtores, herança, interfaces, classes abstratas e tratamento de exceções.</p>
 
 ### 🗎 Descrição:
-Você deverá criar um sistema para gerenciar diferentes tipos de produtos. O sistema deve ser capaz de gerenciar informações sobre eletrônicos, roupas e alimentos, exibindo detalhes específicos para cada tipo de produto. Além disso, o sistema deve permitir a adição, remoção e listagem de produtos, bem como a emissão de um pequeno relatório em arquivo de texto.
+<p align="justify">Você deverá criar um sistema para gerenciar diferentes tipos de produtos. O sistema deve ser capaz de gerenciar informações sobre eletrônicos, roupas e alimentos, exibindo detalhes específicos para cada tipo de produto. Além disso, o sistema deve permitir a adição, remoção e listagem de produtos, bem como a emissão de um pequeno relatório em arquivo de texto.</p>
 
 
 ### 💻Criação de Interfaces
@@ -153,7 +153,7 @@ public List <Produto> exportarListaProdutos(), para devolver a lista de produtos
 public double calcularTotal(), para calcular o valor total dos produtos no carrinho.
 
 
-**Obs.**: para excluir um item da lista de produtos do carrinho, talvez seja necessário buscar pelo seu nome e quantidade, visto que não temos um identificador único para esse caso. public void gerarArquivoTexto(String nomeArquivo).
+<p align="justify">**Obs.**: para excluir um item da lista de produtos do carrinho, talvez seja necessário buscar pelo seu nome e quantidade, visto que não temos um identificador único para esse caso. public void gerarArquivoTexto(String nomeArquivo).</p>
 
 Esse método deverá gravar um arquivo de texto com o formato similiar ao exemplo abaixo:
 
@@ -168,5 +168,5 @@ Esse método deverá gravar um arquivo de texto com o formato similiar ao exempl
 Essa classe, deverá ter suas potenciais exceções tratadas.
 
 ### 6. Classe Principal
-Método main:
-Criar duas instâncias de CarrinhoDeCompras. Na primeira adicionar um Eletronico, uma Roupa, e um Alimento. Na segunda instância adicionar ou mais itens quaisquer. Listar os produtos e o total de ambos os CarrinhoDeCompras. Gravar os arquivos referentes a cada carrinho de compras.
+<p align="justify">Método main:
+Criar duas instâncias de CarrinhoDeCompras. Na primeira adicionar um Eletronico, uma Roupa, e um Alimento. Na segunda instância adicionar ou mais itens quaisquer. Listar os produtos e o total de ambos os CarrinhoDeCompras. Gravar os arquivos referentes a cada carrinho de compras.</p>
